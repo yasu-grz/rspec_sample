@@ -3,7 +3,7 @@ class User < ApplicationRecord
     if age > 19
     "#{name}さん"
     elsif age > 10
-      "#{name}くん"
+      "#{name}君"
     elsif age > 0
       "#{name}ちゃん"
     else
